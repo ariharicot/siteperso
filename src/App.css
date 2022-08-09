@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+
+* {
+  text-align: center;
+  background-color: rgb(19, 18, 18) !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  color: #fff !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
