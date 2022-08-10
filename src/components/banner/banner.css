@@ -1,3 +1,63 @@
-.ArrowCircleRight{
+.banner{
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    background-image: url('/public/assets/fond.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    background-color: transparent;
+}
+.banner .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.banner-title {
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.banner p {
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+}
+
+.banner button {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    letter-spacing: 0.8px;
+    color:#FFBB98 !important;
+    border: 1px solid #7D8E95;
+    padding: 14px 24px;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+.banner button:hover{
+    color:#ec6f30 !important;
+}
+
+.button-icon{
     size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+
+.button-icon:hover{
+    margin-left: 25px;
 }
