@@ -19,7 +19,7 @@ const Banner = () => {
                         <button onClick={() => console.log()}>Me Contacter <ArrowCircleRightIcon className='button-icon'/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                    <img url="https://iconscout.com/illustration/website-maintenance-2043027" alt="dessin d'une plume" />
+                    <img src='./public/assets/website-development.png'alt="website" />
                     </Col>
                 </Row>
             </Container>
