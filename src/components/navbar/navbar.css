@@ -9,7 +9,20 @@ nav.navbar {
 
 nav.navbar.scrolled {
     padding: 0px 0;
-    background-color: #121212;
+    background-color: #7D8E95;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFBB98 !important;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+.navbar-brand:hover{
+
+    color: #ec6f30 !important; 
 }
 
 nav.navbar a.navbar-brand{
@@ -26,13 +39,24 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 }
 
 
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-    color:rgb(121, 205, 238);
-    opacity: 8;
+nav.navbar .navbar-nav .navbar-link:hover,
+nav.navbar .navbar-nav .navbar-link.active {
+    opacity: 40;
 }
 
-span.navbar-text{
-    display: flex;
-    align-items: center;
+
+.contact-form{
+
+}
+
+.navbar button{
+    font-weight: 700;
+    color:#FFBB98 !important;
+    border: 1px solid #7D8E95;
+    padding: 18px 34px;
+    font-size: 18px;
+    margin-left: 18px;
+    position: relative;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
 }
